@@ -36,9 +36,9 @@ const handleDownClick = () => {
         </div>
         <div className="joke__likes">
           <button onClick={handleUpClick} id="btn-up" className="btn-like btn-like--up"></button>
-          <span id="likes-up" className="likes-count likes-count--up">0</span>
+          <span id="likes-up" className="likes-count likes-count--up">{like}</span>
           <button onClick={handleDownClick}  id="btn-down" className="btn-like btn-like--down"></button>
-          <span id="likes-down" className="likes-count likes-count--down">0</span>
+          <span id="likes-down" className="likes-count likes-count--down">{dislike}</span>
         </div>
       </div>
     </div>
