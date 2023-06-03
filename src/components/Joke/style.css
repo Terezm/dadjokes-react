@@ -17,7 +17,7 @@ html {
   max-width: 30rem;
   margin: 5rem auto;
 }
-/* 
+
 .joke {
   margin-bottom: 2rem;
 }
@@ -85,7 +85,7 @@ html {
   cursor: pointer;
 }
 
-/* .btn-like--up {
+.btn-like--up {
   background-color: #00e268;
   background-image: url('img/like-up.png');
 }
@@ -93,4 +93,4 @@ html {
 .btn-like--down {
   background-color: #ff5654;
   background-image: url('img/like-down.png');
-} */ 
+}
